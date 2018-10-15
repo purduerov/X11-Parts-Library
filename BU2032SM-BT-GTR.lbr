@@ -1,0 +1,161 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BAT_BU2032SM-BT-GTR">
+<wire x1="-14.3" y1="2.4" x2="-14.3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-14.3" y1="3.5" x2="-10.65" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-14.3" y1="-2.4" x2="-14.3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-14.3" y1="-3.5" x2="-10.65" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="10.65" y1="3.5" x2="14.3" y2="3.5" width="0.127" layer="21"/>
+<wire x1="14.3" y1="3.5" x2="14.3" y2="2.4" width="0.127" layer="21"/>
+<wire x1="10.65" y1="-3.5" x2="14.3" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="14.3" y1="-3.5" x2="14.3" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="10.65" y1="-3.5" x2="10.469" y2="-3.99408" width="0.127" layer="21"/>
+<wire x1="10.469" y1="-3.99408" x2="10.1742" y2="-4.69126" width="0.127" layer="21"/>
+<wire x1="10.1742" y1="-4.69126" x2="10.0471" y2="-4.95351" width="0.127" layer="21"/>
+<wire x1="10.0471" y1="-4.95351" x2="9.85958" y2="-5.31877" width="0.127" layer="21"/>
+<wire x1="9.85958" y1="-5.31877" x2="9.66997" y2="-5.65694" width="0.127" layer="21"/>
+<wire x1="9.66997" y1="-5.65694" x2="9.44127" y2="-6.0342" width="0.127" layer="21"/>
+<wire x1="9.44127" y1="-6.0342" x2="9.24189" y2="-6.32545" width="0.127" layer="21"/>
+<wire x1="9.24189" y1="-6.32545" x2="9.00623" y2="-6.66061" width="0.127" layer="21"/>
+<wire x1="9.00623" y1="-6.66061" x2="8.64462" y2="-7.12159" width="0.127" layer="21"/>
+<wire x1="8.64462" y1="-7.12159" x2="8.30363" y2="-7.51783" width="0.127" layer="21"/>
+<wire x1="8.30363" y1="-7.51783" x2="7.85404" y2="-7.99282" width="0.127" layer="21"/>
+<wire x1="-10.65" y1="-3.5" x2="-10.4" y2="-4.15" width="0.127" layer="21"/>
+<wire x1="-10.4" y1="-4.15" x2="-10.1" y2="-4.85" width="0.127" layer="21"/>
+<wire x1="-10.1" y1="-4.85" x2="-9.9" y2="-5.25" width="0.127" layer="21"/>
+<wire x1="-9.9" y1="-5.25" x2="-9.62033" y2="-5.73864" width="0.127" layer="21"/>
+<wire x1="-9.62033" y1="-5.73864" x2="-9.22367" y2="-6.35711" width="0.127" layer="21"/>
+<wire x1="-9.22367" y1="-6.35711" x2="-8.7" y2="-7.05" width="0.127" layer="21"/>
+<wire x1="-8.7" y1="-7.05" x2="-8.3449" y2="-7.47343" width="0.127" layer="21"/>
+<wire x1="-8.3449" y1="-7.47343" x2="-7.85404" y2="-7.99087" width="0.127" layer="21"/>
+<wire x1="-10.65" y1="3.5" x2="-10.4577" y2="4.0339" width="0.127" layer="21"/>
+<wire x1="-10.4577" y1="4.0339" x2="-10.0424" y2="4.96605" width="0.127" layer="21"/>
+<wire x1="-10.0424" y1="4.96605" x2="-9.68598" y2="5.6251" width="0.127" layer="21"/>
+<wire x1="-9.68598" y1="5.6251" x2="-9.34744" y2="6.18081" width="0.127" layer="21"/>
+<wire x1="-9.34744" y1="6.18081" x2="-8.95156" y2="6.73009" width="0.127" layer="21"/>
+<wire x1="-8.95156" y1="6.73009" x2="-8.52665" y2="7.27679" width="0.127" layer="21"/>
+<wire x1="-8.52665" y1="7.27679" x2="-8.06433" y2="7.77716" width="0.127" layer="21"/>
+<wire x1="-8.06433" y1="7.77716" x2="-7.84135" y2="7.98325" width="0.127" layer="21"/>
+<wire x1="10.65" y1="3.5" x2="10.5" y2="3.9" width="0.127" layer="21"/>
+<wire x1="10.5" y1="3.9" x2="10.2898" y2="4.44203" width="0.127" layer="21"/>
+<wire x1="10.2898" y1="4.44203" x2="10.0471" y2="4.96165" width="0.127" layer="21"/>
+<wire x1="10.0471" y1="4.96165" x2="9.67406" y2="5.65337" width="0.127" layer="21"/>
+<wire x1="9.67406" y1="5.65337" x2="9.17441" y2="6.42513" width="0.127" layer="21"/>
+<wire x1="9.17441" y1="6.42513" x2="8.73574" y2="7.01158" width="0.127" layer="21"/>
+<wire x1="8.73574" y1="7.01158" x2="8.21418" y2="7.61459" width="0.127" layer="21"/>
+<wire x1="8.21418" y1="7.61459" x2="7.8678" y2="7.97336" width="0.127" layer="21"/>
+<wire x1="-7.85" y1="8" x2="7.85" y2="8" width="0.127" layer="21"/>
+<wire x1="-7.85" y1="-8" x2="7.85" y2="-8" width="0.127" layer="21"/>
+<text x="-16.2672" y="2.75291" size="1.27135" layer="21">+</text>
+<wire x1="-16.75" y1="8.25" x2="16.75" y2="8.25" width="0.05" layer="39"/>
+<wire x1="16.75" y1="8.25" x2="16.75" y2="-8.25" width="0.05" layer="39"/>
+<wire x1="16.75" y1="-8.25" x2="-16.75" y2="-8.25" width="0.05" layer="39"/>
+<wire x1="-16.75" y1="-8.25" x2="-16.75" y2="8.25" width="0.05" layer="39"/>
+<text x="-16.7599" y="8.25489" size="1.27075" layer="25">&gt;NAME</text>
+<text x="-16.7775" y="-9.51558" size="1.27208" layer="27">&gt;VALUE</text>
+<smd name="1" x="-14.65" y="0" dx="3.2" dy="4.2" layer="1"/>
+<smd name="2" x="14.65" y="0" dx="3.2" dy="4.2" layer="1"/>
+<smd name="3" x="0" y="0" dx="11" dy="7" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BU2032SM-BT-GTR">
+<wire x1="-7.62" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="-5.08079" y="2.54039" size="2.54039" layer="95">&gt;NAME</text>
+<text x="-5.08596" y="-5.08596" size="2.54298" layer="96">&gt;VALUE</text>
+<pin name="+" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="-" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BU2032SM-BT-GTR" prefix="BT">
+<description>Holder Cr2032 Gold Leads Smd</description>
+<gates>
+<gate name="G$1" symbol="BU2032SM-BT-GTR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BAT_BU2032SM-BT-GTR">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MP" value="BU2032SM-BT-GTR"/>
+<attribute name="Package" value="None"/>
+<attribute name="Digi-Key_Part_Number" value="BU2032SM-BT-GCT-ND"/>
+<attribute name="Description" value="
+Holder Cr2032 Gold Leads Smd
+"/>
+<attribute name="MF" value="MPD"/>
+<attribute name="Digi-Key_Purchase_URL" value="https://www.digikey.com/product-detail/en/mpd-memory-protection-devices/BU2032SM-BT-GTR/BU2032SM-BT-GCT-ND/3628531?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
