@@ -4,6 +4,7 @@ To create a new part:
 1. Before you begin work, pull recent updates from the repo with:
 	
 	`git checkout master`
+	
 	`git pull`
 
 2. Create a new branch for your part with (replace NEW_BRANCH_NAME with your own _new_ branch name):
